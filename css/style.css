@@ -8,6 +8,9 @@
    --p-family: "Roboto", sans-serif;
    --mono: "Roboto Mono";
 }
+html {
+   overflow-x: hidden;
+}
 .page_body {
    max-width: 1366px;
    margin-top: 100px;
