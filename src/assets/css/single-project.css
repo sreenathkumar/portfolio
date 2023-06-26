@@ -1,0 +1,81 @@
+#all_project .textandline h3 {
+   margin-right: 0px;
+}
+.textandline p {
+   color: var(--cyan);
+}
+.card {
+   background-color: #112240;
+}
+.card_title {
+   font-family: var(--heading-family);
+   font-size: 1.5rem;
+   color: var(--white);
+}
+.card_description {
+   font-family: var(--p-family);
+   font-size: var(--psize);
+   color: var(--lite-gray);
+   line-height: 1.5;
+}
+.folder_icon,
+.link_icon {
+   fill: none;
+   stroke: var(--lite-gray);
+   stroke-width: 1px;
+}
+.card_icon .folder_icon {
+   font-size: 32px;
+   stroke: var(--cyan);
+}
+.card_icon .link_icon {
+   font-size: 24px;
+}
+.see_more {
+   font-family: var(--mono);
+   border-color: var(--cyan);
+   text-decoration: none;
+   color: var(--cyan);
+   background: linear-gradient(
+         to left,
+         rgba(100, 255, 218, 0) 50%,
+         rgba(100, 255, 218, 1) 50%
+      )
+      right;
+   background-size: 201%;
+   transition: 0.5s ease-out;
+   display: inline-block;
+}
+.see_more:hover {
+   background-position: left;
+   color: var(--dark-blue);
+   transform: translateY(-8px);
+}
+
+.swiper {
+   width: 100%;
+   height: 100%;
+}
+
+.swiper-slide {
+   /* Center slide text vertically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.swiper-pagination .swiper-pagination-bullet-active-main {
+   background: var(--cyan);
+}
+
+@media (min-width: 768px) {
+   .card {
+      max-width: 312px;
+   }
+}

@@ -1,0 +1,28 @@
+#contact p.sub_title {
+   font-family: var(--p-family);
+   font-size: var(--psize);
+   color: var(--cyan);
+}
+#contact h2 {
+   font-family: var(--heading-family);
+   font-size: 2rem;
+   color: var(--white);
+}
+#contact p {
+   font-family: var(--p-family);
+   font-size: var(--psize);
+   color: var(--lite-gray);
+   text-align: center;
+   line-height: 1.5;
+}
+@media (min-width: 768px) {
+   #contact {
+      max-width: 686px;
+      margin: 0px auto 136px;
+   }
+
+   #contact h2 {
+      font-size: 64px;
+      line-height: 0.7;
+   }
+}

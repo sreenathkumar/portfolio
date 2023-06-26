@@ -1,0 +1,72 @@
+/* About Me Section */
+
+.textandline h3 {
+   font-family: var(--heading-family);
+   font-size: 1.5rem;
+   color: var(--white);
+   margin-right: 1.5rem;
+}
+.hl {
+   height: 1px;
+   background: var(--lite-gray);
+   display: inline-block;
+   width: 44%;
+}
+.about_texts p {
+   font-family: var(--p-family);
+   font-size: var(--psize);
+   color: var(--lite-gray);
+   line-height: 1.5;
+   margin-bottom: 1rem;
+}
+
+.photo img {
+   z-index: 3;
+   position: relative;
+   transform: translateX(8px);
+}
+
+.photo .overlay {
+   background-color: var(--cyan);
+   z-index: 4;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 45%;
+   transform: translateX(8px);
+   transition: 1s ease-out;
+}
+.photo:hover .overlay {
+   display: none;
+   transition: 1s ease-in;
+}
+.frame {
+   border: 3px solid var(--cyan);
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   transform: translate(-8px, 16px);
+   opacity: 45%;
+   transition: transform 0.5s ease-out;
+}
+.photo:hover .frame {
+   transform: translate(8px, 0px);
+   transition: transform 0.5s ease-out;
+}
+@media screen and (min-width: 800px) {
+   #about {
+      max-width: 896px;
+      display: grid;
+   }
+   .hl {
+      width: 50%;
+   }
+   .textandline h3 {
+      font-size: 2rem;
+   }
+
+   .about .photo {
+      margin: 0px;
+   }
+}

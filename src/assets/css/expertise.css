@@ -1,0 +1,35 @@
+/* Expertise Section */
+.expertise_texts {
+   font-size: var(--psize);
+   font-family: var(--p-family);
+   line-height: 1.5;
+   color: var(--lite-gray);
+   margin-bottom: 40px;
+}
+.skill_list {
+   display: flex;
+   flex-direction: row;
+   gap: 4.5rem;
+}
+
+.skill_list div li {
+   font-size: var(--psize);
+   font-family: var(--p-family);
+   color: var(--lite-gray);
+   list-style: none;
+}
+.skill_list div li svg {
+   font-size: 25px;
+   stroke: var(--cyan);
+}
+
+@media screen and (min-width: 800px) {
+   #expertise {
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .expertise_text_container {
+      position: relative;
+   }
+}

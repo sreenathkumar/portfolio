@@ -1,0 +1,15 @@
+.animated-button {
+   background: linear-gradient(
+         to left,
+         rgba(100, 255, 218, 0) 50%,
+         rgba(100, 255, 218, 1) 50%
+      )
+      right;
+   background-size: 201%;
+   transition: 0.5s ease-out;
+}
+.animated-button:hover {
+   background-position: left;
+   color: var(--dark-blue);
+   transform: translateY(-8px);
+}
