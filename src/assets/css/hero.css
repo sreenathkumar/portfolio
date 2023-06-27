@@ -4,7 +4,7 @@
    color: var(--lite-gray);
 }
 .name {
-   font-size: 1.5rem;
+   font-size: 2rem;
    color: var(--white);
    line-height: 1;
    font-family: var(--heading-family);
@@ -20,6 +20,7 @@
    color: var(--lite-gray);
    font-family: var(--p-family);
    line-height: 1.5;
+   text-align: center;
 }
 .animated-button {
    font-family: var(--mono);

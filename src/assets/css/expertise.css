@@ -2,6 +2,7 @@
 .expertise_texts {
    font-size: var(--psize);
    font-family: var(--p-family);
+   text-align: justify;
    line-height: 1.5;
    color: var(--lite-gray);
    margin-bottom: 40px;

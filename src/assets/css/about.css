@@ -16,6 +16,7 @@
    font-family: var(--p-family);
    font-size: var(--psize);
    color: var(--lite-gray);
+   text-align: justify;
    line-height: 1.5;
    margin-bottom: 1rem;
 }

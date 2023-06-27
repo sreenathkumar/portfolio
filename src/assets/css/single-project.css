@@ -15,6 +15,7 @@
 .card_description {
    font-family: var(--p-family);
    font-size: var(--psize);
+   text-align: justify;
    color: var(--lite-gray);
    line-height: 1.5;
 }
