@@ -39,7 +39,7 @@ const featuredProjects: FeaturedProjectType[] = [
 export default function FeaturedProjects() {
 
    return (
-      <div className='px-6 mb-28 md:px-20' id="featured_project">
+      <div className='px-6 mb-28 md:px-20' id="featured">
          <div className="textandline flex mb-10 items-center">
             <h3>Top Projects</h3>
             <div className="hl"></div>
