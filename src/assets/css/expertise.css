@@ -9,8 +9,8 @@
 }
 .skill_list {
    display: flex;
-   flex-direction: row;
-   gap: 4.5rem;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
 
 .skill_list div li {
@@ -28,6 +28,12 @@
    #expertise {
       margin-left: auto;
       margin-right: auto;
+   }
+
+   .skill_list {
+      gap: 4.5rem;
+      flex-direction: row;
+      flex-wrap: wrap;
    }
 
    .expertise_text_container {

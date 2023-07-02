@@ -21,11 +21,9 @@ body {
       "Helvetica Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   height: 100vh;
    background: #0a192f;
 }
 
 #root {
    overflow-x: hidden;
-   height: 100%;
 }

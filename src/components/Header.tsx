@@ -9,7 +9,7 @@ export default function Header() {
       setMobileMenuOpen(!mobileMenuOpen);
    };
    return (
-      <header className="sticky top-0 p-6 md:items-center ">
+      <header className="fixed w-full top-0 p-4 md:items-center ">
          <div className="container flex justify-between items-center mx-auto md:px-12">
             <div className="logo">
                <img className="h-12"

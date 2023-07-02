@@ -3,7 +3,7 @@ import AnimatedButton from './ui/AnimatedButton'
 
 export default function Hero() {
    return (
-      <div className="hero text-center my-28 md:mb-32 px-6 md:px-0" id="hero">
+      <div className="hero text-center my-48 md:mb-32 px-6 md:px-0" id="hero">
          <span className="greeting block mb-4 font-normal">Hello, I am</span>
          <h1 className="name font-extrabold font-sans mb-4">Sreenath Kumar</h1>
          <h2 className="Slogan mb-6 font-extrabold">I make Web Beautiful.</h2>

@@ -1,6 +1,5 @@
 header {
    background: var(--dark-blue);
-   position: sticky;
    z-index: 999;
 }
 .header_btn {
@@ -38,7 +37,7 @@ nav ul {
    background: var(--dark-blue);
    transition: transform 0.5s ease-in;
 }
-nav ul li a {
+nav ul li button {
    color: var(--white);
    font-family: var(--mono);
 }

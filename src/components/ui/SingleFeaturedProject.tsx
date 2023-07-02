@@ -3,8 +3,6 @@ import { FeaturedProjectType } from '../FeaturedProjects'
 
 
 export default function SingleFeaturedProject({ project, index }: { project: FeaturedProjectType, index: number }) {
-   console.log(index);
-
    return (
       <div className={`project_item grid_${(index + 1) % 2 === 0 ? 'even' : 'odd'} relative mb-8 md:mb-10 rounded-lg grid grid-cols-12`}>
          <div className="project_image w-full h-full col-span-full row-span-full">
