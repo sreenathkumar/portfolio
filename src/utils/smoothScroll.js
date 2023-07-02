@@ -37,7 +37,6 @@ export function smoothScroll(targetPosition) {
       const progress = Math.min(elapsed / duration, 1);
 
       const easedProgress = easeInOutCubic(progress); // Apply easing function
-      console.log(currentPosition + distance * easedProgress);
 
       window.scrollTo(0, currentPosition + distance * easedProgress);
 

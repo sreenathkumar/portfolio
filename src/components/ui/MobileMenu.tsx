@@ -8,7 +8,6 @@ export default function MobileMenu({ open }: { open: boolean }) {
   const handleClick = (e: React.MouseEvent, target: string) => {
     e.preventDefault();// diabling default scroll behavior
 
-
     const scrolledAmount = scrollContainer?.scrollTop;
     const targetElement: HTMLElement | null = document.getElementById(target);
     const targetPosition = targetElement && targetElement.getBoundingClientRect().top + window.scrollY;
@@ -17,8 +16,6 @@ export default function MobileMenu({ open }: { open: boolean }) {
     if (targetPosition !== null && scrolledAmount !== undefined) {
       goToTarget = targetPosition + scrolledAmount - 152;
     }
-    console.log(goToTarget);
-    console.log(scrollContainer?.scrollTop);
 
     disableScroll();
     smoothScroll(goToTarget);
