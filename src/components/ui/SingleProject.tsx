@@ -3,7 +3,7 @@ import { FeaturedProjectType } from '../FeaturedProjects'
 
 export default function SingleProject({ project }: { project: FeaturedProjectType }) {
    return (
-      <div className="item h-full">
+      <div className="item h-full md:h-auto">
          <div className="card max-w-xs flex flex-col h-full p-8 m-auto rounded-lg">
             <div className="card_icon flex justify-between items-center mb-8">
                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 31 28"
