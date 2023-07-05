@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.55e47e75.css",
-    "main.js": "/portfolio/static/js/main.7e32a7d0.js",
+    "main.css": "/portfolio/static/css/main.ec191dbd.css",
+    "main.js": "/portfolio/static/js/main.125a010f.js",
     "static/media/Sreenath_Kumar.png": "/portfolio/static/media/Sreenath_Kumar.533b165e108f5e7d62c9.png",
     "static/media/Interier_Design.webp": "/portfolio/static/media/Interier_Design.1111e736c744dd4fee79.webp",
     "static/media/Yoga_Music.webp": "/portfolio/static/media/Yoga_Music.547bed5142279e2eed77.webp",
     "static/media/Mobile_Repair.webp": "/portfolio/static/media/Mobile_Repair.b12f85c430e593846677.webp",
     "static/media/logo.webp": "/portfolio/static/media/logo.de9cc7549aba50307b82.webp",
     "index.html": "/portfolio/index.html",
-    "main.55e47e75.css.map": "/portfolio/static/css/main.55e47e75.css.map",
-    "main.7e32a7d0.js.map": "/portfolio/static/js/main.7e32a7d0.js.map"
+    "main.ec191dbd.css.map": "/portfolio/static/css/main.ec191dbd.css.map",
+    "main.125a010f.js.map": "/portfolio/static/js/main.125a010f.js.map"
   },
   "entrypoints": [
-    "static/css/main.55e47e75.css",
-    "static/js/main.7e32a7d0.js"
+    "static/css/main.ec191dbd.css",
+    "static/js/main.125a010f.js"
   ]
 }
