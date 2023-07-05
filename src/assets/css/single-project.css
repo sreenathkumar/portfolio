@@ -30,7 +30,14 @@
    stroke: var(--cyan);
 }
 .card_icon .link_icon {
-   font-size: 24px;
+   font-size: 21px;
+}
+.link_icon:hover {
+   stroke: var(--cyan);
+}
+.project-tag {
+   color: var(--cyan);
+   font-size: 12px;
 }
 .see_more {
    font-family: var(--mono);
