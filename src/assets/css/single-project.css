@@ -30,7 +30,14 @@
    stroke: var(--cyan);
 }
 .card_icon .link_icon {
-   font-size: 24px;
+   font-size: 21px;
+}
+.link_icon:hover {
+   stroke: var(--cyan);
+}
+.project-tag {
+   color: var(--cyan);
+   font-size: 12px;
 }
 .see_more {
    font-family: var(--mono);
@@ -53,6 +60,12 @@
    transform: translateY(-8px);
 }
 
+.item {
+   transition: 0.5s ease-out;
+}
+.item:hover {
+   transform: translateY(-24px);
+}
 .swiper {
    width: 100%;
    height: 100%;
@@ -63,6 +76,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   height: auto !important;
 }
 
 .swiper-slide img {
