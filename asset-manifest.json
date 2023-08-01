@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ec0cfff8.css",
-    "main.js": "/portfolio/static/js/main.125a010f.js",
+    "main.js": "/portfolio/static/js/main.7d713d30.js",
     "static/media/Sreenath_Kumar.png": "/portfolio/static/media/Sreenath_Kumar.533b165e108f5e7d62c9.png",
     "static/media/Interier_Design.webp": "/portfolio/static/media/Interier_Design.1111e736c744dd4fee79.webp",
     "static/media/Yoga_Music.webp": "/portfolio/static/media/Yoga_Music.547bed5142279e2eed77.webp",
@@ -9,10 +9,10 @@
     "static/media/logo.webp": "/portfolio/static/media/logo.de9cc7549aba50307b82.webp",
     "index.html": "/portfolio/index.html",
     "main.ec0cfff8.css.map": "/portfolio/static/css/main.ec0cfff8.css.map",
-    "main.125a010f.js.map": "/portfolio/static/js/main.125a010f.js.map"
+    "main.7d713d30.js.map": "/portfolio/static/js/main.7d713d30.js.map"
   },
   "entrypoints": [
     "static/css/main.ec0cfff8.css",
-    "static/js/main.125a010f.js"
+    "static/js/main.7d713d30.js"
   ]
 }
