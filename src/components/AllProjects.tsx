@@ -34,7 +34,7 @@ export default function AllProjects() {
          image: '',
          subtitle: '',
          tags: ['HTML', 'CSS', 'JavaScript'],
-         link:'https://sreenathkumar.github.io/drumset/'
+         link: 'https://sreenathkumar.github.io/drumset/'
       },
       {
          title: 'Simon game',
@@ -42,8 +42,8 @@ export default function AllProjects() {
          source: 'https://github.com/sreenathkumar/Simon-Game',
          image: '',
          subtitle: '',
-         tags: ["HTML", "CSS", "JavaScript","Game"],
-         link:'https://sreenathkumar.github.io/Simon-Game/'
+         tags: ["HTML", "CSS", "JavaScript", "Game"],
+         link: 'https://sreenathkumar.github.io/Simon-Game/'
       },
    ];
    return (
@@ -69,7 +69,7 @@ export default function AllProjects() {
             </div>
 
          }
-         <AnimatedButton link='' text='See All' />
+         <AnimatedButton link='https://github.com/sreenathkumar' text='See All' />
       </div>
    )
 }
