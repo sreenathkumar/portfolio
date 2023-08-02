@@ -1,5 +1,5 @@
 import '../assets/css/about.css'
-import sreenathImage from '../assets/images/Sreenath_Kumar.png'
+import sreenathImage from '../assets/images/Sreenath_Kumar.webp'
 export default function About() {
    return (
       <div className="flex flex-wrap flex-col px-6 mb-28 md:px-0 md:mx-auto md:grid-flow-col" id="about">

@@ -5,6 +5,9 @@ header {
 .header_btn {
    display: none;
 }
+.logo img {
+   max-width: 80px;
+}
 nav ul li {
    list-style: none;
 }
