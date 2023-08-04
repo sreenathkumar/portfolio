@@ -3,19 +3,21 @@ import { FeaturedProjectType } from '../FeaturedProjects'
 
 
 export default function SingleFeaturedProject({ project, index }: { project: FeaturedProjectType, index: number }) {
+   const maxLength = 220;
+   let subDes = project.description.length > maxLength ? project.description.substring(0, maxLength) + "..." : project.description
    return (
       <div className={`project_item grid_${(index + 1) % 2 === 0 ? 'even' : 'odd'} relative mb-8 md:mb-10 rounded-lg grid grid-cols-12`}>
          <div className="project_image w-full h-full col-span-full row-span-full">
             <span className="overlay"></span>
-            <a className="h-full md:h-auto md:relative" href={'project.link'} target="_blank" rel="noreferrer" >
-               <img src={project.image} className="h-full w-full rounded-lg" alt={'project.title'} />
+            <a className="h-full md:h-auto md:relative block" href={project.link} target="_blank" rel="noreferrer" >
+               <img src={project.image} className="h-full w-full rounded-lg" alt={project.title} />
             </a>
          </div>
          <div className="project_texts h-full p-6 col-span-full row-span-full md:relative md:h-auto md:p-0">
             <p className="project_subtitle font-medium">{project.subtitle}</p>
             <h2 className="project_title">{project.title}</h2>
             <p className="project_des">
-               {project.description}
+               {subDes}
             </p>
             <div className="tags_icon flex justify-between items-center flex-wrap mt-auto md:pt-10">
                <div className="icons">
