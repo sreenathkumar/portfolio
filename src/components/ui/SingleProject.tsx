@@ -2,6 +2,7 @@ import '../../assets/css/single-project.css'
 import { FeaturedProjectType } from '../FeaturedProjects'
 
 export default function SingleProject({ project }: { project: FeaturedProjectType }) {
+
    return (
       <div className="item">
          <div className="card max-w-xs flex flex-col h-full p-8 m-auto rounded-lg">
