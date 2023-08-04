@@ -12,31 +12,31 @@ export interface FeaturedProjectType {
 }
 const featuredProjects: FeaturedProjectType[] = [
    {
-      title: 'Interior Design Agency',
+      title: 'CoolMonkey',
       subtitle: 'Featured Project',
-      description: 'This page is an Agency website homepage. Their work is to design the furniture and other object appearel inside any type of room. The decorate Office, Bed Room, Conferrence Room, Dianing Room etc.',
-      tags: ['Web Design', 'Adobe XD', 'WordPress'],
-      image: require("../assets/images/Interier_Design.webp"),
-      link: 'https://www.behance.net/gallery/84829905/Real-State-website-design',
+      description: 'Introducing "Cool Monkey," an innovative and captivating online clothing store designed and developed to redefine your fashion experience. With an exquisite collection of high-quality apparel, the platform offers a unique blend of style and individuality.The website\'s sleek and modern interface ensures a seamless shopping experience.',
+      tags: ['WordPress', 'Woocommerce', 'Elementor Pro', 'Shop'],
+      image: require("../assets/images/coolmonkey.webp"),
+      link: 'https://coolmonkey.net/',
       source: '',
    },
    {
-      title: 'PhoneDoctor (Mobile Shop)',
+      title: 'S Thomas Thompson',
       subtitle: 'Featured Project',
-      description: 'PhoneDoctor is a mobile repair shop. They repairs all kinds of smartphone i.e Android and iphone. They also sell smartphones replacement parts and component. Their speciality is in iphone.',
-      tags: ['Web Design', 'Adobe XD', 'WordPress'],
-      image: require("../assets/images/Mobile_Repair.webp"),
-      link: 'https://www.behance.net/gallery/114885501/Mobile-Repair-Shop',
+      description: '"S Thomas Thompson", the official website of the talented book author, S. Thomas Thompson. Delve into the captivating world of literature as you explore a treasure trove of engaging stories and compelling narratives that have won the hearts of readers worldwide. Author of the Augustine Boyle detective fiction series, the Angelica Boyle cozy mystery books, audiobook producer, ghostwriter and copywriter.',
+      tags: ['Portfolio', 'Book Author', 'WordPress', 'Elementor Pro'],
+      image: require("../assets/images/thompson.webp"),
+      link: 'https://sthomasthompsonauthor.com/',
       source: '',
    },
    {
-      title: 'Yoga Music',
+      title: 'Ankh ‘J’ Lani Apparel',
       subtitle: 'Fetaured Project',
-      description: 'Yoga Music is built for the collection of Music which can be use during yoga or gym. It\'s an online music player website with various types of songs and musics. There is an option to download the musics.',
-      tags: ['Web Design', 'Adobe XD', 'WordPress'],
-      image: require("../assets/images/Yoga_Music.webp"),
+      description: 'Ankh ‘J’ Lani Apparel, where athletic and casual designer clothing is infused with the power to inspire hope. The brand is inspired by a visionary community activist, driven by hope, inspiration, and integrity. Join them in spreading positivity and making a difference with each stylish garment you wear. Together, we inspire hope in all people.',
+      tags: ['WordPress', 'Woocommerce', 'Elementor Pro', 'Apparel Shop'],
+      image: require("../assets/images/ankhjali.webp"),
       link: 'https://www.behance.net/gallery/95344643/Music-for-Yoga',
-      source:'',
+      source: '',
    }];
 
 
