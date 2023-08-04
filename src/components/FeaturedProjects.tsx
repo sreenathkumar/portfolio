@@ -46,7 +46,7 @@ export default function FeaturedProjects() {
 
       <div className='container px-6 mb-28 mx-auto md:px-20' id="featured">
          <div className="textandline flex mb-10 items-center">
-            <h3>Some Designs</h3>
+            <h3>Client's Projects</h3>
             <div className="hl"></div>
          </div>
          <div className="fproject_container md:flex md:flex-col">
