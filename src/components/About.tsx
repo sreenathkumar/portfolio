@@ -10,15 +10,12 @@ export default function About() {
             </div>
             <div className="about_texts md:max-w-md">
                <p>
-                  Hi !! I am Sreenath Kumar. A student and part time WordPress Web
-                  Developer. A learner and dreamer for making something great. Love
-                  to code, try to learn something new everyday. My goal is to build
-                  something great for people that make me different from others.
+                  Greetings! I'm Sreenath Kumar, a dedicated B.Sc. Mathematics student at BSMRSTU and a passionate Frontend Developer. My expertise lies in crafting captivating user interfaces and seamless experiences using JavaScript, React.js, Tailwind CSS, and TypeScript.
+               </p>
+               <p>With a strong foundation in mathematics and a flair for coding, I'm committed to creating visually appealing and functional websites. My journey involves continuous exploration of new frontend technologies, ensuring I stay at the forefront of web development trends.
                </p>
                <p>
-                  Currently studying B.Sc. in Mathematics in BSMRSTU. Beside study
-                  freelancing as a Web Developer in WordPress platform. Learning
-                  different coding technologies and language.
+                  While my primary focus is frontend development, I also possess extra expertise in WordPress, allowing me to create dynamic and customizable websites that marry design with functionality.
                </p>
                <span className="vl"></span>
             </div>

@@ -8,13 +8,9 @@ export default function Contact() {
             <p className="sub_title mb-4">Wanna Have a conversation?</p>
             <h2 className='mb-5'>Get in Touch</h2>
             <p className='mb-10'>
-               If you are interested to work with me you can talk with in Fiverr freelancing marketplace. Here I provide
-               provide quality
-               services on WordPress and Woocommerce. If you have any suggestion or opinion you are welcome. Just visit my
-               Fiverr profile and
-               have a look at my Gigs. If you like my gigs give a thumbsup.
+            Ready to bring your ideas to life? Let's collaborate and create something exceptional together. Whether you need a captivating website, an engaging user interface, or a seamless user experience, I'm here to make it happen. Reach out today and let's start building!
             </p>
-            <AnimatedButton link='https://www.fiverr.com/sreenath_kumar' text='Say Hi!!' />
+            <AnimatedButton link='https://www.fiverr.com/sreenath_kumar' text='Send a ❤' />
          </div>
       </div>
    )
