@@ -13,7 +13,7 @@
    font-size: 2rem;
    color: var(--lite-gray);
    font-family: var(--heading-family);
-   line-height: 1;
+   line-height: 1.5;
 }
 .hero p {
    font-size: var(--psize);
