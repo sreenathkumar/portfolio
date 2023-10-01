@@ -2,7 +2,7 @@
    background: linear-gradient(
          to left,
          rgba(100, 255, 218, 0) 50%,
-         rgba(100, 255, 218, 1) 50%
+         var(--cyan) 50%
       )
       right;
    background-size: 201%;

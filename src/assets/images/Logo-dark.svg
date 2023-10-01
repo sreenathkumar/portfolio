@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.2 105.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .06em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: CascadiaCode, 'Cascadia Code';
+        font-size: 15.93px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #63ffd9;
+      }
+
+      .cls-4 {
+        fill: #2f4858;
+      }
+
+      .cls-2 {
+        letter-spacing: .06em;
+      }
+
+      .cls-5 {
+        fill: #fa935b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <polygon class="cls-5" points="120.11 52.82 99.24 74.48 99.24 68.26 114.12 52.82 99.24 37.42 99.24 31.31 99.31 31.24 120.11 52.82"/>
+      <polygon class="cls-5" points="36.29 38.05 22.09 52.82 36.29 67.52 36.29 73.78 16.09 52.82 36.29 31.83 36.29 38.05"/>
+      <polygon class="cls-3" points="99.23 14.97 99.23 25.52 36.4 90.73 36.28 90.61 36.28 80.03 36.43 80.18 65.41 50.05 99.23 14.97"/>
+      <polygon class="cls-4" points="36.28 15.23 36.29 19.88 36.29 25.8 36.28 25.81 10.17 52.9 36.28 80.03 36.28 90.61 33.9 88.07 0 52.9 36.28 15.23"/>
+      <polygon class="cls-4" points="99.24 80.74 126.03 52.9 99.24 25.51 99.23 25.52 99.23 14.97 99.24 14.96 104.34 20.21 136.2 52.9 99.23 91.29 99.24 85.18 99.24 80.74"/>
+      <text class="cls-2" transform="translate(95.96 36.49) rotate(133.95) skewX(-2.1)"><tspan x="0" y="0">sreenath</tspan></text>
+      <text class="cls-1" transform="translate(41.32 70.23) rotate(-47.1) skewX(-2.1)"><tspan x="0" y="0">sreenath</tspan></text>
+    </g>
+  </g>
+</svg>
