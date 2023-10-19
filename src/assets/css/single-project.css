@@ -95,3 +95,8 @@
       max-width: 312px;
    }
 }
+@media (max-width: 768px) {
+   .item {
+      height: 100%;
+   }
+}
