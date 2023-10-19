@@ -35,7 +35,7 @@ const featuredProjects: FeaturedProjectType[] = [
       description: 'Ankh ‘J’ Lani Apparel, where athletic and casual designer clothing is infused with the power to inspire hope. The brand is inspired by a visionary community activist, driven by hope, inspiration, and integrity. Join them in spreading positivity and making a difference with each stylish garment you wear. Together, we inspire hope in all people.',
       tags: ['WordPress', 'Woocommerce', 'Elementor Pro', 'Apparel Shop'],
       image: require("../assets/images/ankhjali.webp"),
-      link: 'https://www.behance.net/gallery/95344643/Music-for-Yoga',
+      link: 'https://ankhjlani.com/',
       source: '',
    }];
 
