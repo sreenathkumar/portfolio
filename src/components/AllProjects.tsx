@@ -10,6 +10,15 @@ import React from 'react';
 export default function AllProjects() {
    const projects: FeaturedProjectType[] = [
       {
+         title: 'Auto login system',
+         description: 'A React project focused on web animation built using ReactJs, Tailwind CSS, TypeScript, and GSAP. It demonstrates a range of features and techniques for creating interactive and visually appealing web animations.',
+         source: 'https://github.com/sreenathkumar/retailer-of-watch-content',
+         image: '',
+         subtitle: '',
+         tags: ['React Js', 'GSAP3', 'TypeScript', 'Tailwind CSS', 'Web Animation'],
+         link: 'https://sreenathkumar.github.io/retailer-of-watch-content/'
+      },
+      {
          title: 'Books of the weeek',
          description: 'An api based web app built with React. This app shows you the best selling books of the week. You can also search for any book you want. Which shows you the book details and the link to buy the book.',
          source: 'https://github.com/sreenathkumar/react-library',
@@ -18,15 +27,7 @@ export default function AllProjects() {
          tags: ['React', 'API', 'JavaScript'],
          link: 'https://react-library-by-sreenath-kumar.netlify.app/'
       },
-      {
-         title: 'Auto login system',
-         description: 'A web Scraper built with Python. Basically this is a automatic login robot which login using your given login information and do some click/instructed task.',
-         source: 'https://github.com/Sreenath-Kumar/python_auto_login',
-         image: '',
-         subtitle: '',
-         tags: ['Selenuim', 'Python', 'Web Scraper'],
-         link: ''
-      },
+
       {
          title: 'Web based drum kit',
          description: 'A web based drum kit built with HTML CSS and JavaScripts. You can play drum with your keyboard or mouse click. This is a fun project to play with. I hope you will enjoy it.',
