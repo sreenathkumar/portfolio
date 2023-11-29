@@ -15,7 +15,7 @@ export default function AllProjects() {
          source: 'https://github.com/sreenathkumar/retailer-of-watch-content',
          image: '',
          subtitle: '',
-         tags: ['React Js', 'GSAP3', 'TypeScript', 'Tailwind CSS', 'Web Animation'],
+         tags: ['React Js', 'GSAP3', 'TypeScript', 'Tailwind CSS',],
          link: 'https://sreenathkumar.github.io/retailer-of-watch-content/'
       },
       {
