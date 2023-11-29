@@ -10,7 +10,7 @@ import React from 'react';
 export default function AllProjects() {
    const projects: FeaturedProjectType[] = [
       {
-         title: 'Auto login system',
+         title: 'Video Content App',
          description: 'A React project focused on web animation built using ReactJs, Tailwind CSS, TypeScript, and GSAP. It demonstrates a range of features and techniques for creating interactive and visually appealing web animations.',
          source: 'https://github.com/sreenathkumar/retailer-of-watch-content',
          image: '',
